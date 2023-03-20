@@ -10,7 +10,9 @@
 </head>
 
 <body>
-  <img width="25%" src="" alt="" id="api-response"></img>
+  <div class="randImage">
+    <img width="25%" src="" alt="" id="api-random-response"></img>
+  </div>
   <script src="main.js">
   </script>
   <form action="" class="cardsearch">
@@ -19,8 +21,9 @@
       <input type="text" name="search" id="search" required>
     </div>
     <div>
-      <input type="submit" value="Search!" id="term">
+      <input type="button" value="Search!" id="term" onclick="searchCard()">
     </div>
+    <img width="25%" src="" alt="" id="api-search-response"></img>
   </form>
 </body>
 
