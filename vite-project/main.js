@@ -1,5 +1,6 @@
 const randURL = "https://api.scryfall.com/cards/random";
-const searchURL = "https://api.scryfall.com/cards/search"
+const searchURL = "https://api.scryfall.com/cards/search";
+const searchTerm = document.getElementById("term");
 
 async function randomCard(randURL) {
   try {
